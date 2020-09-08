@@ -1,0 +1,235 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  =============================
+  Grid
+  =============================
+*/
+*,
+*:before,
+*:after{
+  -webkit-box-sizing:border-box;
+     -moz-box-sizing:border-box;
+          box-sizing:border-box;
+}
+
+body,html{
+  height: 100%;
+  font-family: 'Georgia';
+}
+
+/*
+  =================================
+  Background
+  =================================
+*/
+.background{
+  /*background-image: url("C:/Users/fang/Desktop/html5 lecture slides/bg-img/t01a35adbf83a8ef351.png");
+  */background-size: cover;
+    background-color: Snow;
+}
+
+/*
+  ====================================
+  Header and Footer
+  ====================================
+*/
+
+
+.container{
+  margin: 0 auto 80px auto;
+  width: 100%;
+  padding: 30px 20px;
+  background-color: SlateGray;
+}
+
+.footer{
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px 20px;
+  background-color: SlateGray;
+}
+
+.head-background{
+  background-image: url("C:/Users/fang/Desktop/html5 lecture slides/bg-img/t01a35adbf83a8ef351.png");
+  background-size: cover;
+  background-clip: padding-box;
+}
+
+/*
+  =====================================
+  Typography
+  =====================================
+*/
+
+
+h1{
+   text-align: center;
+   font-size: 75px;
+   padding: 160px 0 220px 0;
+   letter-spacing: .9px;
+   font-weight: 700;
+   color: white;
+}
+
+
+span{
+  font-family: 'M PLUS 1P',Georgia;
+}
+
+h3{
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+  position:absolute;
+  top:420px;
+  left:1050px;
+}
+
+p{
+  padding-bottom: 70px;
+  font-style: italic;
+  position:absolute;
+  top:450px;
+  left:775px;
+}
+
+h3,
+p,
+.footer{
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 22px;
+  color:white;
+  letter-spacing: .5px;
+}
+
+h3, p{
+  text-align: right;
+  font-weight: 500;
+}
+
+
+.footer{
+  text-align: right;
+  margin-top: 50px;
+}
+
+h2{
+   font-weight: 600;
+   color: DarkSlateGrey;
+   font-size: 30px;
+   line-height: 40px;
+}
+
+/*
+  ==============================
+  Rows and Columns
+  ==============================
+*/
+
+.row{
+  display: block;
+  vertical-align: top;
+  padding:50px 90px;
+  border-radius: 50px;
+  width:78%;
+  text-align: center;
+}
+
+.first{
+  background-color: rgba(72,209,204,0.8);
+  margin: 35px 30px 35px 230px;
+  box-shadow: 6px 6px 2px rgba(0, 0, 0, .3);
+}
+
+.second{
+  background-color: rgba(255,255,0,0.7);
+  margin: 35px 200px 35px 40px;
+  box-shadow: -6px 6px 2px rgba(0, 0, 0, .3);
+}
+
+.third{
+  background-color: rgba(240,128,128,0.8);
+  margin: 35px 30px 35px 230px;
+  box-shadow: 6px 6px 2px rgba(0, 0, 0, .3);
+}
+
+.fourth{
+  background-color: rgba(50,205,50,0.7);
+  margin: 35px 200px 35px 40px;
+  box-shadow: -6px 6px 2px rgba(0, 0, 0, .3);
+}
+
+/*
+  ===========================================
+  Links
+  ===========================================
+*/
+a:hover{
+  color: #A9A9A9;
+}
+
+a{
+  color: DarkSlateGrey;
+  text-decoration: none;
+}
+
+.first:hover{
+  background-color: #B0E0E6;
+}
+
+.second:hover{
+  background-color: #FFFACD;
+}
+
+.third:hover{
+  background-color: #FFC0CB;
+}
+
+.fourth:hover{
+  background-color: #90EE90;
+}

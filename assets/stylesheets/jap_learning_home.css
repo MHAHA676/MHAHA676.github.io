@@ -1,0 +1,251 @@
+/*
+  =======================================
+
+  Reset
+
+  =======================================
+*/
+ html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  ========================================
+
+  Basic Styling
+
+  ========================================
+*/
+ body{
+ 	background:#293f50;
+ 	color:#888;
+ 	font:500 16px/22px "Lato", Georgia, Arial, sans-serif;
+ }
+
+/*
+  =========================================
+
+  Grid
+
+  =========================================
+*/
+ *,
+ *:before,
+ *:after {
+ 	-webkit-box-sizing:border-box;
+ 	   -moz-box-sizing:border-box;
+ 	        box-sizing:border-box;
+ }
+
+.header{
+	background:
+     linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.6)),
+	 url("C:/users/fang/Desktop/html5 lecture slides/bg-img/21645766_1370327358368.jpg");
+	background-size: cover;
+	border:1px solid gray;
+}
+
+ .container{
+ 	margin:0 auto;
+ }
+
+
+h1{
+	text-align: center;
+	padding-top: 210px;
+	padding-bottom:190px; 
+}
+
+.primary,
+.secondary{
+ 	background-color: Snow;
+ }
+
+ .primary{
+ 	text-align: center;
+ 	height:80%;
+ }
+
+.secondary{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	letter-spacing: .7px;
+}
+
+.footer{
+	text-align: right;
+	padding:15px 20px;
+	line-height: 28px;
+	letter-spacing: .5px;
+}
+
+nav a{
+	margin:0 5px;
+}
+
+/*
+  =========================================
+
+  Typography
+
+  =========================================
+ */
+
+strong{
+	font-weight: 400;
+}
+
+cite, em{
+	font-style: italic;
+}
+
+h1, h2, h3, p{
+	margin-bottom: 22px;
+}
+
+h1, h2{
+	letter-spacing: .8px;
+	
+}
+
+h1{
+	color:#fff;
+	font-size: 70px;
+	line-height: 37px;
+	font-weight: 500;
+}
+
+h2{
+	font-size: 18px;
+	line-height: 22px;
+}
+
+h3{
+	color:#648880;
+	font-size: 15px;
+	line-height: 30px;
+}
+
+.japword{
+	font-family: 'M PLUS 1P', "Lato", Georgia, Arial, sans-serif;
+}
+
+/*
+  =========================================
+
+  Links
+
+  =========================================
+*/
+ a:hover{
+ 	color:#648880;
+ }
+
+ a{
+    color: #fff;
+ 	text-decoration: none;
+ }
+
+/*
+   =============================================
+
+   Home Columns
+
+   =============================================
+ */
+ .col{
+ 	display: inline-block;
+ 	width: 20%;
+ 	margin:0 10px;
+ 	padding:0 20px;
+ }
+
+ .bottom{
+ 	border:1px solid #648880;
+ 	border-top:none;
+ 	border-bottom-left-radius:20px;
+ 	border-bottom-right-radius:20px;
+ 	padding:10px 20px;
+
+ }
+
+ .col-parent{
+ 	position: relative;
+ 	top:-66px;
+ }
+
+ /*
+   ========================================
+
+   Buttons
+
+   ========================================
+ */
+ .btn{
+ 	border-radius: 30px;
+ 	cursor: pointer;
+ 	color:#fff;
+ 	background-color: #648880;
+ 	display: inline-block;
+ 	font-weight: 400;
+ 	letter-spacing: .5px;
+ 	margin: 0;
+ }
+
+ .btn-alt{
+ 	border-bottom-left-radius: 0;
+ 	border-bottom-right-radius: 0;
+ 	border:1px solid #fff;
+ 	padding:10px 0;
+ 	width:100%;
+ }
+
+ .btn-alt:hover{
+ 	background:#fff;
+ 	color:#648880;
+ 	border-color: #648880;
+ 	border-bottom-color: #fff;
+ }
+
+ 

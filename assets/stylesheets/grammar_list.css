@@ -1,0 +1,272 @@
+/*
+  =======================================
+
+  Reset
+
+  =======================================
+*/
+ html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  ========================================
+
+  Basic Styling
+
+  ========================================
+*/
+ body{
+  background:#648880;
+  color:#888;
+  font:500 16px/22px "Lato", Georgia, Arial, sans-serif;
+ }
+
+/*
+  =========================================
+
+  Grid
+
+  =========================================
+*/
+ *,
+ *:before,
+ *:after {
+  -webkit-box-sizing:border-box;
+     -moz-box-sizing:border-box;
+          box-sizing:border-box;
+ }
+
+ .container{
+  margin:0 auto;
+  width:100%;
+ }
+
+ .header{
+  text-align: center;
+  padding:70px 60px;
+  background:
+   linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.6)),
+   url("C:/users/fang/Desktop/html5 lecture slides/bg-img/21645766_1370327358368.jpg");
+  background-size: cover;
+ }
+
+ .footer{
+  text-align: right;
+  padding:15px 20px;
+  line-height: 28px;
+  letter-spacing: .5px;
+  background-color: #293f50;
+}
+
+nav a{
+  margin:0 5px;
+}
+
+.block{
+  display: inline-block;
+  margin:0;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.navigation{
+  background-color: #648880;
+  width:17%;
+  line-height: 80px;
+  letter-spacing: .5px;
+  float: left;
+  padding:50px 20px;
+}
+
+.main{
+  float: right;
+  background-color: Snow;
+  width: 83%;
+  padding:60px 50px 150px 50px;
+}
+
+/*
+  =====================================
+
+  Typography
+
+  =====================================
+*/
+strong{
+  font-weight: 400;
+}
+
+cite, em{
+  font-style: italic;
+}
+
+h1, h2{
+  letter-spacing: .8px;
+  
+}
+
+h1{
+  margin-bottom: 22px;
+  color:#fff;
+  font-size: 50px;
+  line-height: 37px;
+  font-weight: 500;
+  letter-spacing: .8px;
+}
+
+.japword{
+  font-family: 'M PLUS 1P', "Lato", Georgia, Arial, sans-serif;
+}
+
+
+/*
+  =========================================
+
+  Links
+
+  =========================================
+*/
+ a:hover{
+  color:#648880;
+ }
+
+ a{
+    color: #fff;
+  text-decoration: none;
+ }
+
+.nav-pad a:hover{
+  color: yellow;
+}
+
+/*
+  =====================================
+
+  Clearfix
+
+  =====================================
+*/
+
+.middle:before,
+.middle:after{
+  content: "";
+  display: table;
+}
+
+.middle:after{
+  clear: both;
+}
+
+.middle{
+  clear: both;
+  *zoom:1;
+}
+
+
+.footer{
+  clear:both;
+}
+
+/*
+  =======================================
+
+  Lesson Lists
+
+  =======================================
+*/
+
+.list{
+  display: inline-block;
+  width: 80%;
+  margin: 20px 30px;
+  padding:30px 30px;
+  line-height: 30px;
+  font-weight: 300px;
+  font-size: 20px;
+ }
+
+ol{
+  list-style: decimal;
+}
+
+li{
+  margin-bottom: 50px;
+}
+
+.jap_list{
+  text-align: left;
+}
+
+dl{
+  margin:30px 10px;
+  padding:20px 5px;
+}
+
+dt{
+  margin-bottom: 15px;
+}
+
+ul li{
+  margin-bottom: 10px;
+  list-style-type: disc;
+}
+
+/*
+  ===========================================
+
+  Table
+
+  ===========================================
+*/
+
+table,
+tr,
+th,
+td{
+  border-color: #648880;
+  text-align: center;
+  padding: 3px 10px;
+  margin: 10px 10px;
+  border-collapse:collapse;
+}
